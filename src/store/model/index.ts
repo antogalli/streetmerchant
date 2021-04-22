@@ -155,6 +155,8 @@ import {Zotac} from './zotac';
 import {logger} from '../../logger';
 import chalk from 'chalk';
 
+import {Mediaworld} from './mediaworld';
+
 export const storeList = new Map([
   [AComPC.name, AComPC],
   [Adorama.name, Adorama],
@@ -247,6 +249,7 @@ export const storeList = new Map([
   [Megekko.name, Megekko],
   [Ldlc.name, Ldlc],
   [Materiel.name, Materiel],
+  [Mediaworld.name, Mediaworld],
   [MemoryExpress.name, MemoryExpress],
   [MicroCenter.name, MicroCenter],
   [MightyApe.name, MightyApe],
